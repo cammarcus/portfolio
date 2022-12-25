@@ -1,10 +1,35 @@
+h2 {
+    text-align: center;
+    color: aliceblue;
+    background-color: #13293D;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
 body {
     text-align: center;
     color: aliceblue;
-    background-color: darkblue;
-  }
+    background-color: #13293D;
+}
   .output {
     border: 3px solid white;
     margin: 1em 5em 1em 5em;
     display: none;
-  }
+}
+
+.game {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 90vmin;
+    height: 90vmin;
+    margin: auto;
+}
+
+img.welcomeImg {
+    height: 200px;
+    width: 200px;
+}
+
