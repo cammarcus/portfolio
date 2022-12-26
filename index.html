@@ -4,26 +4,34 @@
 
 <!-- Cam Marcus Portfolio, handcoded by Cam Marcus... in progress-->
 
+    <nav>
+        <ul>
+            <li><a href="#intro">welcome</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
 <div id="intro">
-<h2>Welcome to my portfolio</h2>
-
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="scrollDown()">Try it</button>
-
+    <h2>Welcome to my portfolio</h2>
+    <p id="demo">A Paragraph.</p>
+    <button type="button" onclick="changeWords()">Try it</button>
 </div>
 
+    <div id="about">
+        <h2>About Me</h2>
+        <img src="maryland-road-trips.jpeg" class="welcomeImg" onmouseover="bigImg(this)"onmouseout="normalImg(this)">
+        <button type="button" onclick="backToTop()">Try it</button>
+    </div>
 
-<img src="maryland-road-trips.jpeg" class="welcomeImg" onmouseover="bigImg(this)"onmouseout="normalImg(this)">
-
-<p>This example links to "myScript.js".</p>
-
+    <div id="contact">
+        <h2>Contact</h2>
+        <button type="button" onclick="backToTop()">Try it</button>
+    </div>
 
 
 
 <link href="style.css" rel="stylesheet" />
-
 <script src="script.js"></script>
-
 </body>
 </html>

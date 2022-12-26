@@ -1,31 +1,17 @@
+
 h2 {
     text-align: center;
     color: aliceblue;
     background-color: #13293D;
     font-family: "Times New Roman", Times, serif;
-}
-
+    /*height: 50%;*/
+} 
 
 body {
+    margin: 0;
     text-align: center;
     color: aliceblue;
     background-color: #13293D;
-}
-  .output {
-    border: 3px solid white;
-    margin: 1em 5em 1em 5em;
-    display: none;
-}
-
-.game {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 90vmin;
-    height: 90vmin;
-    margin: auto;
 }
 
 img.welcomeImg {
@@ -33,3 +19,60 @@ img.welcomeImg {
     width: 200px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav {
+    /*change this... put on right, change font*/
+    width: 90%;
+    /*overflow: hidden; */
+    position: fixed;
+    /*text-align: right;*/
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*li {
+    float: left;
+} */
+
+a {
+    padding: 0px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+a:hover {
+    padding: 0px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: rgb(244, 142, 159);
+}
+
+#intro {
+    height: 100vh;
+}
+
+#about {
+    height: 100vh;
+    width: 100%
+}
+
+#contact {
+    height: 100vh;
+}
