@@ -14,6 +14,13 @@ function changeWords() {
     text = (text + 1) % 2;
 }
 
+window.addEventListener("load", (event) => {
+    
+    if (window.pageYOffset == 0) {
+        document.getElementById("introNav").style.textDecoration = "underline";
+    } 
+});
+
 window.addEventListener("scroll", (event) => {
     var currSection = 1;
     var intro = document.getElementById("intro");
@@ -30,10 +37,6 @@ window.addEventListener("scroll", (event) => {
     } else {
         currSection = 1;
     }
-
-
-
-
 
     if (currSection == 4) {
         document.getElementById("contactNav").style.textDecoration = "underline";

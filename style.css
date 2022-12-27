@@ -1,27 +1,32 @@
-
 h1{
     /*text-align: center; */
     color: aliceblue;
     background-color: #13293D;
     font-family: "Times New Roman", Times, serif;
     /*height: 50%;*/
-    animation: mover 6s linear infinite;
 } 
 
-@keyframes mover {
-    from {top: 0px;}
-    to {top: 200px;}
-  }
+h1.move{
+    text-align: left;
+    -webkit-text-stroke: 0.01em white;
+    color: transparent;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    background-color: pink;
+    font-size: 8em;
+    
+} 
 
 div.mainText {
     height: 100px;
+    padding: 0;
     position: relative;
-    animation: mymove 5s infinite;
+    animation: mymove 20s infinite;
   }
   
 @keyframes mymove {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 100%;}
   }
 
 
@@ -30,6 +35,7 @@ body {
     text-align: center;
     color: aliceblue;
     background-color: #13293D;
+    overflow-y: hidden;
 }
 
 img.welcomeImg {
