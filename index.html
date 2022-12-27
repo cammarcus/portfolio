@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="icon" href="smiley.png">
+    <script src="https://kit.fontawesome.com/6873f2fd9f.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WF0LC9G5G8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WF0LC9G5G8');
+    </script>
+</head>
 <body>
 
 <!-- Cam Marcus Portfolio, handcoded by Cam Marcus... in progress-->
 
     <nav>
         <ul>
-            <li><a href="#intro">welcome</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">contact</a></li>
+            <li id="introNav"><a class="nav" href="#intro">welcome</a></li>
+            <li id="aboutNav"><a class="nav" href="#about">about</a></li>
+            <li id="projectsNav"><a class="nav" href="#projects">projects</a></li>
+            <li id="contactNav"><a class="nav" href="#contact">contact</a></li>
         </ul>
     </nav>
 
-<div id="intro">
-    <h2>Welcome to my portfolio</h2>
-    <p id="demo">A Paragraph.</p>
-    <button type="button" onclick="changeWords()">Try it</button>
-</div>
+    <!-- <div class = "vertical"></div> -->
 
-    <div id="about">
-        <h2>About Me</h2>
-        <img src="maryland-road-trips.jpeg" class="welcomeImg" onmouseover="bigImg(this)"onmouseout="normalImg(this)">
-        <button type="button" onclick="backToTop()">Try it</button>
+    <div class="scroll-container">
+        <div class="scroll-item" id="intro">
+            <h1>Welcome to my portfolio</h2>
+            <p id="demo">A Paragraph.</p>
+            <button type="button" onclick="changeWords()">Try it</button>
+            <i class="fa-solid fa-user"></i>
+            <span class="navbar__menu-item"><span data-menu-item-text="#Discover" class="navbar__menu-item-title">#Discover</span>
+            <div class="mainText">
+                <h1>Welcome to my portfolio</h2>
+            </div>
+        </div>
+
+        <div class="scroll-item" id="about">
+            <h2>About Me</h2>
+            <img src="maryland-road-trips.jpeg" class="welcomeImg" onmouseover="bigImg(this)"onmouseout="normalImg(this)">
+            <button type="button" onclick="backToTop()">Try it</button>
+        </div>
+
+        <div class="scroll-item" id="projects">
+            <h2>Projects</h2>
+            <img src="maryland-road-trips.jpeg" class="welcomeImg" onmouseover="bigImg(this)"onmouseout="normalImg(this)">
+            <button type="button" onclick="backToTop()">Try it</button>
+        </div>
+
+        <div class="scroll-item" id="contact">
+            <h2>Contact</h2>
+            <a href="mailto:cammarcus19@gmail.com">Send email</a>
+            <form method="get" action="maryland-road-trips.jpeg">
+                <button type="submit">Download!</button>
+            </form>
+            <button type="button" onclick="backToTop()">Try it</button>
+        </div>
     </div>
 
-    <div id="contact">
-        <h2>Contact</h2>
-        <button type="button" onclick="backToTop()">Try it</button>
-    </div>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
 
-
-
-<link href="style.css" rel="stylesheet" />
-<script src="script.js"></script>
 </body>
 </html>
