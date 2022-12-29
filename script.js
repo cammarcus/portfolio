@@ -14,6 +14,36 @@ function changeWords() {
     text = (text + 1) % 2;
 }
 
+var light = 1;
+function lightmode() {
+    if (light === 1) {
+        document.getElementById("introMessage").style.color = "#13293D";
+        document.body.style.backgroundColor = 'aliceblue';
+        document.getElementById("webnameDisplay").style.color = "#13293D";
+    } else {
+        document.body.style.backgroundColor = "#13293D";
+        document.getElementById("introMessage").style.color = "aliceblue";
+        document.getElementById("webnameDisplay").style.color = "transparent";
+    }
+    light = (light + 1) % 2;
+}
+
+function changeAboutDisplay(category) {
+    if (category === 1) {
+        document.getElementById("aboutHeader").style.color = "red";
+    } else if (category === 2) {
+        document.getElementById("introMessage").style.color = "aliceblue";
+    } else if (category === 3) {
+        document.getElementById("introMessage").style.color = "aliceblue";
+    } else {
+        document.getElementById("introMessage").style.color = "aliceblue";
+    }
+}
+
+function revert() {
+    document.getElementById("introMessage").style.color = "red";
+}
+
 window.addEventListener("load", (event) => {
     
     if (window.pageYOffset == 0) {

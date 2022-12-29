@@ -1,21 +1,45 @@
 h1{
     /*text-align: center; */
     color: aliceblue;
-    background-color: #13293D;
+    background-color: transparent;
     font-family: "Times New Roman", Times, serif;
     /*height: 50%;*/
 } 
 
-h1.move{
+h1.webname{
     text-align: left;
-    -webkit-text-stroke: 0.01em white;
+    -webkit-text-stroke: 0.01em aliceblue;
     color: transparent;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    background-color: pink;
+    /*background-color: pink;*/
     font-size: 8em;
+    position: relative;
+    width: 0;
+    right: -5%;
     
 } 
+
+div.aboutCover {
+    color: transparent;
+    position: absolute; 
+    top: 160%;
+}
+
+div.contactCover {
+    color: transparent;
+    position: absolute; 
+    top: 360%;
+}
+
+
+h2.about {
+    text-align: left;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
 
 div.mainText {
     height: 100px;
@@ -80,12 +104,58 @@ a.nav {
     text-align: left;
 }
 
-a:hover {
+a.nav:hover {
     -webkit-text-stroke: none;
     color: aliceblue;
     transition: -webkit-text-stroke 0.5s ease, color 0.5s ease;
 }
 
+
+a.aboutTabs {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color:aliceblue;
+    width: 0px;
+    text-transform: uppercase;
+    font-size: 3.4em;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: left;
+    text-shadow : horizontal-shadow vertical-shadow blur pink;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+a.aboutTabs:hover {
+    -webkit-text-stroke: none;
+    color: aliceblue;
+    transition: -webkit-text-stroke 0.5s ease, color 0.5s ease;
+    text-shadow: 0 0 10px rgba(240, 248, 255, 0.276), 0 0 20px aliceblue, 0 0 12px rgba(240, 248, 255, 0.473), 0 0 12px rgba(240, 248, 255, 0.257),0 0 42px rgba(240, 248, 255, 0.457);
+}
+
+a.contactTabs {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color:aliceblue;
+    width: 0px;
+    text-transform: uppercase;
+    font-size: 3.4em;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: left;
+    text-shadow : horizontal-shadow vertical-shadow blur pink;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+a.contactTabs:hover {
+    -webkit-text-stroke: none;
+    color: rgb(23, 69, 109);
+    transition: -webkit-text-stroke 0.5s ease, color 0.5s ease;
+    text-decoration: underline;
+}
 
 /*
 when on that page, we want this:
@@ -134,3 +204,74 @@ div.sections {
     scroll-snap-align: start;
     overflow-y: hidden;
 }
+
+
+
+#rssBlock{
+    left:0px;
+    height: 80px;
+    background: #FFFFFF;
+    position: absolute;
+    width:1070px;
+    overflow: hidden;
+  }
+  
+  /*remove p*/
+  .cnnContents {
+    width:100%;
+    padding-top: 20px;
+    margin:0 auto;
+    font-size: 30px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: 'Museo';
+    font-weight: 300;
+  }
+  /*
+  .marqueeStyle {
+    display:inline-block;
+    /* Apply animation to this element */ /*
+    -webkit-animation: scrolling-left1 20s linear infinite;
+    animation: scrolling-left1 20s linear infinite;
+  }
+  
+  .marqueeStyle2 {
+    display:inline-block;
+    /* Apply animation to this element */ /*
+    -webkit-animation: scrolling-left2 20s linear infinite;
+    animation: scrolling-left2 20s linear infinite;
+    animation-delay: 10s;
+  }
+  /* scrolling-left is continuous/repeatly text */ /*
+  @keyframes scrolling-left1 {
+      0% {transform: translateX(100%);
+          -webkit-transform: translateX(100%);}
+        100% {transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);}
+  }
+  
+  @-webkit-keyframes scrolling-left1 {
+      0% {-webkit-transform: translateX(100%);}
+        100% {-webkit-transform: translateX(-100%);}
+  }  */
+
+  .glow {
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  div.pictureAndText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+  
+
+
+  
