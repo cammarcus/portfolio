@@ -10,12 +10,15 @@ export default function Projects() {
             {projects.map((project, index) => (
                 <div key={index} className="flex flex-col">
                     <div className="flex flex-row justify-between">
-                        <Link href={project.link} target="_blank">
-                            <p className="font-bold text-subtitle underline">{project.title}</p>
-                        </Link>
+                        <div>
+                            <p className="font-bold text-subtitle">{project.title}</p>
+                            <Link href={project.link} target="_blank">
+                                <p className="text-md underline">visit</p>
+                            </Link>
+                        </div>
                         {/* <p>Image</p> */}
                     </div>
-                    <div className="text-description">
+                    <div className="text-description mt-2">
                         <p>{project.description}</p>
                     </div>
                 </div>

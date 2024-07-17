@@ -69,7 +69,7 @@ export const professionalExperienceData = {
     projects: [
         {
             title: 'The True Price of a Mocha',
-            description: "A project I am currently working on with a peer from Johns Hopkins. As a research project for her masters in Environment and Sustainability Management at Georgetown University, my friend Emily Javedan did research on coffee shops in the Georgetown area. I worked with her to design and build a website to her specifications, and we're curently enhancing the website to better meet the needs of users. This was built with Next.js, deployed on Vercel and uses Firebase for the backend.",
+            description: "A project I am currently working on with a peer from Johns Hopkins. As a research project for her Masters in Environment and Sustainability Management at Georgetown University, my friend Emily Javedan did research on coffee shops in the Georgetown area. I worked with her to design and build a website to her specifications, and we're curently enhancing the website to better meet the needs of users. This was built with Next.js, deployed on Vercel and uses Firebase for the backend.",
             link: 'https://www.thetruepriceofamocha.com/'
         },
         {

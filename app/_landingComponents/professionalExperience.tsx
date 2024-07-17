@@ -28,11 +28,13 @@ export default function ProfessionalExperience() {
                                 <p>{startDateString} - {endDateString}</p>
                             </div>
                         </div>
-                        <div className="mt-2 text-description">
+                        <ul className="mt-2 text-description list-disc">
                             {job.jobPoints.map((point, pointIndex) => (
-                                <p key={pointIndex}>{point}</p>
+                                <li key={pointIndex}>
+                                    <p className="ml-2">{point}</p>
+                                </li>
                             ))}
-                        </div>
+                        </ul>
                     </div>
                 );
             })}

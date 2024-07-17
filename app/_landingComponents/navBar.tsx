@@ -21,7 +21,7 @@ export default function NavBar() {
             </div>
             <div>
                 <div>
-                    <Link href={`/Cameron Marcus Resume.pdf`} target="_blank">
+                    <Link href={`https://docs.google.com/document/d/1x_v54z5ZSMY95qXS9h7Nc3y8gqoLBF8I/edit`} target="_blank">
                         <p>Resume</p>
                     </Link>
                 </div>

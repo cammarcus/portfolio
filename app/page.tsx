@@ -19,7 +19,7 @@ export default function Home() {
       
       {/* Content div */}
       <div className="relative z-10" style={{ minHeight: '100vh', width: '100vw' }}>
-        <div className="flex flex-col items-center p-8 w-full">
+        <div className="flex flex-col items-center sm:p-8 p-4 w-full">
           <div className="w-full">
             <NavBar />
           </div>
