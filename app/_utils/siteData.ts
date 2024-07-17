@@ -64,3 +64,23 @@ export const professionalExperienceData = {
       }
     ]
   };
+
+  export const projectsData = {
+    projects: [
+        {
+            title: 'The True Price of a Mocha',
+            description: "A project I am currently working on with a peer from Johns Hopkins. As a research project for her masters in Environment and Sustainability Management at Georgetown University, my friend Emily Javedan did research on coffee shops in the Georgetown area. I worked with her to design and build a website to her specifications, and we're curently enhancing the website to better meet the needs of users. This was built with Next.js, deployed on Vercel and uses Firebase for the backend.",
+            link: 'https://www.thetruepriceofamocha.com/'
+        },
+        {
+            title: 'Groops',
+            description: "One of my favorite games to play with my girlfriend is Connections (a word puzzle) by the New York Times. However, a new one releases only once a day, and I also wanted to be able to create custom games. So, I built an unlimited version where users can also create their own games. I built this in React and utilized AWS (API Gateway, S3 for hosting, DynamoDB for the database).",
+            link: 'http://first-attempt-static-for-groops.s3-website-us-east-1.amazonaws.com/',
+        },
+        {
+            title: "Dijkstra's Word Path",
+            description: "This is still a work in progress and the front end is simply just a placeholder UI to interact with the API. I was inspired by a game called weaver: https://wordwormdormdork.com/ where you must find the shortest path between two four letter words. I wanted to see if there was a way to verify that a path is indeed the shortest between two words, so I created an API that utilizes Dijkstra's alogrithm to find the shortest path.",
+            link: 'http://dikstras-words.s3-website-us-east-1.amazonaws.com/'
+        }
+    ]
+  }

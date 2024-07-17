@@ -9,16 +9,14 @@ export default function ProfessionalExperience() {
     }
 
     const jobsArray = professionalExperienceData.jobs;
-    const startDateString = jobsArray[0].startDate ? formatDate(jobsArray[0].startDate) : 'Present';
-    const endDateString = jobsArray[0].endDate ? formatDate(jobsArray[0].endDate) : 'Present';
 
     return (
-        <div>
+        <div className="space-y-6">
             {jobsArray.map((job, index) => {
                 let startDateString = job.startDate ? formatDate(job.startDate) : 'Present';
                 const endDateString = job.endDate ? formatDate(job.endDate) : 'Present';
                 return (
-                    <div key={index} className="mb-6">
+                    <div key={index}>
                         <div>
                             <p className="font-bold text-subtitle">{job.company}</p>
                         </div>
@@ -36,8 +34,9 @@ export default function ProfessionalExperience() {
                             ))}
                         </div>
                     </div>
-                )
+                );
             })}
         </div>
     );
+
 }

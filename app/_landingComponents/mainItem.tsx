@@ -3,6 +3,7 @@ import Projects from "./projects";
 import Certifications from "./certifications";
 import ProfessionalExperience from "./professionalExperience";
 import CategoryContent from "./categoryContent";
+import Misc from "./misc";
 
 export default function MainItem() {
     return (
@@ -12,6 +13,9 @@ export default function MainItem() {
             </div>
             <div className="mt-10">
                 <CategoryContent title={'Projects'} content={<Projects></Projects>}></CategoryContent>
+            </div>
+            <div className="mt-10">
+                <CategoryContent title={'Misc'} content={<Misc></Misc>}></CategoryContent>
             </div>
             <div className="mt-10">
                 <CategoryContent title={'Certifications'} content={<Certifications></Certifications>}></CategoryContent>
