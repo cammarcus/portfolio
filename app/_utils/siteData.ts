@@ -81,6 +81,11 @@ export const professionalExperienceData = {
             title: "Dijkstra's Word Path",
             description: "Web application that uses Dijkstra's algorithm to find the shortest path between two words by changing one letter at a time, inspired by the game Weaver from wordwormdormdork.com. The frontend, built with React and styled with Tailwind CSS, interacts with a Node.js and Express backend deployed on an AWS EC2 instance. This setup ensures a responsive user experience and efficient handling of word transformations.",
             link: 'http://54.167.171.72/'
+        },
+        {
+          title: 'Financial Education App',
+          description: "Developed during my internship at Envestnet, this financial education app, built with React Native, offers a gamified approach to learning finances, akin to Duolingo for financial literacy. The app was showcased to the CEO and C-suite executives. Although not currently deployed, a demonstration video is available on YouTube.",
+          link: "https://youtu.be/t8dt6HJul7A?si=fPQmFmEQMKLzioJj"
         }
     ]
   }
