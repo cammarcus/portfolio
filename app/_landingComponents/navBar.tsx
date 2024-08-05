@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between p-10">
             <div className="flex flex-row justify-start">
                 <div className="p-4">
                     <Link href={`https://www.linkedin.com/in/cameron-marcus/`} target="_blank">
