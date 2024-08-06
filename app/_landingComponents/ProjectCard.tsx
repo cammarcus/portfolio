@@ -13,14 +13,27 @@ const ProjectCard: React.FC<CardProps> = ({ image, title, description, link, ski
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col md:flex-row items-start md:items-start space-y-4 md:space-y-0 md:space-x-6">
       <div className="flex-shrink-0">
-        <Image 
-          src={image || "/default-image.jpg"} 
-          alt={title} 
-          width={150} 
-          height={300} 
-          className="w-40 h-40 object-cover rounded-lg"
-          style={{ objectFit: 'cover', objectPosition: 'top' }}
-        />
+        {link ? (
+          <Link href={link} target="_blank">
+            <Image 
+              src={image || "/default-image.jpg"} 
+              alt={title} 
+              width={150} 
+              height={300} 
+              className="w-40 h-40 object-cover rounded-lg cursor-pointer"
+              style={{ objectFit: 'cover', objectPosition: 'top' }}
+            />
+          </Link>
+        ) : (
+          <Image 
+            src={image || "/default-image.jpg"} 
+            alt={title} 
+            width={150} 
+            height={300} 
+            className="w-40 h-40 object-cover rounded-lg"
+            style={{ objectFit: 'cover', objectPosition: 'top' }}
+          />
+        )}
       </div>
       <div className="flex-1">
         <p className="font-bold text-xl mb-2">{title}</p>
@@ -34,7 +47,7 @@ const ProjectCard: React.FC<CardProps> = ({ image, title, description, link, ski
         </div>
         {link && (
           <Link href={link} target="_blank">
-            <p className="text-blue-500 underline hover:text-blue-700 transition-colors">Visit</p>
+            <p className="text-blue-500 underline hover:text-blue-700 transition-colors">Visit Project</p>
           </Link>
         )}
       </div>
