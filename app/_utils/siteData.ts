@@ -12,7 +12,7 @@ export const professionalExperienceData = {
         'Implement API changes in Python using AWS CDK, interacting with both SQL and NoSQL databases',
         'Demo user stories to business users and other relevant stakeholders'
       ],
-      image: '/essent.png',
+      image: '/essent.jpg',
     },
     {
       title: 'Co-Founder / CEO',
@@ -40,7 +40,7 @@ export const professionalExperienceData = {
         'Codeveloped React Native app in a small team to expand societal accessibility to financial education',
         'United and networked with employees in several teams, better understanding fintech systems and technology'
       ],
-      image: '/envestnet.png',
+      image: '/envestnet.jpg',
     },
     {
       title: 'Business Development Strategist',
@@ -53,7 +53,7 @@ export const professionalExperienceData = {
         'Fostered client-brand relationships through social media platforms, recruiting ambassadors and sponsors',
         'Analyzed competitor and consumer data to improve and develop product pricing strategies'
       ],
-      image: '/happy_being.png',
+      image: '/happy_being.jpg',
     },
     {
       title: 'Analyst Intern',
@@ -76,28 +76,28 @@ export const projectsData = {
       title: 'The True Price of a Mocha',
       description: "A project I am currently working on with a peer from Johns Hopkins. As a research project for her Masters in Environment and Sustainability Management at Georgetown University, my friend Emily Javedan did research on coffee shops in the Georgetown area. I worked with her to design and build a website to her specifications, and we're curently enhancing the website to better meet the needs of users. This was built with Next.js, deployed on Vercel and uses Firebase for the backend.",
       link: 'https://www.thetruepriceofamocha.com/',
-      image: '/ttpoam.png',
+      image: '/ttpoam.jpg',
       skills: ['Next.js', 'Tailwind', 'UX', 'Agile']
     },
     {
       title: 'Groops',
       description: "One of my favorite games to play with my girlfriend is Connections (a word puzzle) by the New York Times. However, a new one releases only once a day, and I also wanted to be able to create custom games. So, I built an unlimited version where users can also create their own games. I built this in React and utilized AWS (API Gateway, S3 for hosting, DynamoDB for the database).",
       link: 'http://first-attempt-static-for-groops.s3-website-us-east-1.amazonaws.com/',
-      image: '/groops.png',
+      image: '/groops.jpg',
       skills: ['AWS Serverless', 'S3', 'DynamoDB', 'API Gateway', 'Lambda Functions']
     },
     {
       title: "Dijkstra's Word Path",
       description: "Web application that uses Dijkstra's algorithm to find the shortest path between two words by changing one letter at a time, inspired by the game Weaver from wordwormdormdork.com. The frontend, built with React and styled with Tailwind CSS, interacts with a Node.js and Express. Both the frontend and backend are deployed on an AWS EC2 instance. This setup ensures a responsive user experience and efficient handling of word transformations.",
       link: 'http://54.167.171.72/',
-      image: '/dijkstra.png',
+      image: '/dijkstra.jpg',
       skills: ['Node.js', 'Express', 'EC2', 'Axios']
     },
     {
       title: 'Financial Education App',
       description: "Developed during my internship at Envestnet, this financial education app, built with React Native, offers a gamified approach to learning finances, akin to Duolingo for financial literacy. The app was showcased to the CEO and C-suite executives. Although not currently deployed, a demonstration video is available on YouTube.",
       link: "https://youtu.be/t8dt6HJul7A?si=fPQmFmEQMKLzioJj",
-      image: '/fin_ed.png',
+      image: '/fin_ed.jpg',
       skills: ['React Native']
     }
   ]
