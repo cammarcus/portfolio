@@ -17,20 +17,13 @@ export default function Home() {
         }}
       ></div>
 
-      {/* Fixed NavBar
-      <div className="fixed top-0 left-0 w-full z-10">
-        <NavBar />
-      </div> */}
-
       {/* Content div */}
-      <div className="relative z-20" style={{ minHeight: '100vh', width: '100vw' }}>
-        <div className="flex flex-col items-center w-full pt-20">
+      <div className="relative z-20 pt-20" style={{ minHeight: '100vh', width: '100vw' }}>
+        <NavBar />
+        <div className="flex flex-col items-center w-full pt-10">
           <div className="w-full">
             <Header />
           </div>
-          {/* <div className="mt-10 flex flex-col items-center w-full">
-            <MainItem />
-          </div> */}
           <div className="mt-10">
             <SubItem />
           </div>
