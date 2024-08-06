@@ -22,6 +22,7 @@ export default function ProfessionalExperience() {
             startDate={startDateString}
             endDate={endDateString}
             jobPoints={job.jobPoints}
+            image={job.image}
           />
         );
       })}
