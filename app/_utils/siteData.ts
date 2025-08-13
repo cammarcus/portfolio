@@ -21,10 +21,10 @@ export const professionalExperienceData = {
       startDate: new Date(2023, 0, 1), // January 2023
       endDate: null,
       jobPoints: [
-        'Develop innovative platform for travel content creators with cutting-edge technologies, such as Next.js',
+        'Developed innovative platform for travel content creators with cutting-edge technologies, such as Next.js',
         'Applied and accepted in JHU-sponsored accelerator, JHU summer incubator, and other pitch competitions',
-        'Perform in-depth market research, communicating with hundreds of current content creators in the process',
-        'Collaborate with other developers and a marketing manager to engineer and promote the up-and-coming platform'
+        'Performed in-depth market research, communicating with hundreds of current content creators in the process',
+        'Collaborated with other developers and a marketing manager to engineer and promote the up-and-coming platform'
       ],
       image: '/EscapeGoat.jpg',
     },
@@ -35,7 +35,7 @@ export const professionalExperienceData = {
       startDate: new Date(2022, 5, 1), // June 2022
       endDate: new Date(2022, 7, 1), // August 2022
       jobPoints: [
-        'Operated as an assistant project owner in an agile environment, developing my skills with scrum methodologies',
+        'Operated as an assistant project owner in an agile environment, developing skills with scrum methodologies',
         'Collaborated to develop and present business solutions to company CEO and senior executives',
         'Codeveloped React Native app in a small team to expand societal accessibility to financial education',
         'United and networked with employees in several teams, better understanding fintech systems and technology'
@@ -81,14 +81,14 @@ export const projectsData = {
     },
     {
       title: 'Groops',
-      description: "One of my favorite games to play with is Connections (a word puzzle) by the New York Times. However, a new one releases only once a day, and I also wanted to be able to create custom games. So, I built an unlimited version where users can also create their own games. I built this in React and utilized AWS (API Gateway, S3 for hosting, DynamoDB for the database).",
+      description: "One of my favorite games to play is Connections (a word puzzle) by the New York Times. However, a new one releases only once a day, and I also wanted to be able to create custom games. So, I built an unlimited version where users can also create their own games. I built this in React and utilized AWS (API Gateway, S3 for hosting, DynamoDB for the database).",
       link: 'http://first-attempt-static-for-groops.s3-website-us-east-1.amazonaws.com/',
       image: '/groops.jpg',
       skills: ['AWS Serverless', 'S3', 'DynamoDB', 'API Gateway', 'Lambda Functions']
     },
     {
       title: "Dijkstra's Word Path",
-      description: "Web application that uses Dijkstra's algorithm to find the shortest path between two words by changing one letter at a time, inspired by the game Weaver from wordwormdormdork.com. The frontend, built with React and styled with Tailwind CSS, interacts with a Node.js and Express. Both the frontend and backend are deployed on an AWS EC2 instance. This setup ensures a responsive user experience and efficient handling of word transformations.",
+      description: "Web application that uses Dijkstra's algorithm to find the shortest path between two words by changing one letter at a time, inspired by the game Weaver from wordwormdormdork.com. The frontend, built with React and styled with Tailwind CSS, interacts with a Node.js and Express. Both the frontend and backend are deployed on an AWS EC2 instance. This setup ensures a responsive user experience and efficient handling of word transformations. This currently may not load due to hosting fees.",
       link: 'http://54.167.171.72/',
       image: '/dijkstra.jpg',
       skills: ['Node.js', 'Express', 'EC2', 'Axios']
@@ -102,7 +102,7 @@ export const projectsData = {
     },
     {
       title: 'Financial Education App',
-      description: "Developed during my internship at Envestnet, this financial education app, built with React Native, offers a gamified approach to learning finances, akin to Duolingo for financial literacy. The app was showcased to the CEO and C-suite executives. Although not currently deployed, a demonstration video is available on YouTube.",
+      description: "Developed during internship at Envestnet, this financial education app, built with React Native, offers a gamified approach to learning finances, akin to Duolingo for financial literacy. The app was showcased to the CEO and C-suite executives. Although not currently deployed, a demonstration video is available on YouTube.",
       link: "https://youtu.be/t8dt6HJul7A?si=fPQmFmEQMKLzioJj",
       image: '/fin_ed.jpg',
       skills: ['React Native']
